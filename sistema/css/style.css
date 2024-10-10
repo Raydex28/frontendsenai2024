@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 1000;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover{
+    background: #555;
+    color: rgb(111, 137, 168);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.banner {
+    background-image: url('../assets/img/1.png');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    height: 427px;
+}
+
+.banner h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner p{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.call-to-action {
+    background: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.call-to-action:hover{
+    background-color: #e67e22;
+}
+.vidro{
+    background-color: #ffffff7d;
+    width: 800px;
+    height: 200px;
+    margin-top: 100px;
+    border-radius: 15px;
+    justify-content: center;
+}
+.card-section{
+    padding: 50px 20px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3{
+    font-size: 1.2em;
+    margin-bottom: 15px 0;
+}
+
+.card p{
+    margin-bottom: 20px;
+}
+
+.card a{
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
